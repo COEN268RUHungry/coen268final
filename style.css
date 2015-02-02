@@ -16,7 +16,8 @@ body {
 }
 #search-page nav button {
   float: left;
-  margin-left: -2%;
+  margin-left: 0;
+  display: block;
 }
 #search-page > div {
   background-color: rgba(28, 28, 28, 0.6);
@@ -41,4 +42,205 @@ body {
 }
 #search-page > div #find-restaurant {
   margin-top: 20%;
+}
+#discover-page header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+#discover-page header nav {
+  border-bottom: 1px solid #f7f7f7;
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 40px;
+}
+#discover-page header nav .menu {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  height: 40px;
+  color: #1abc9c;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+}
+#discover-page header nav p {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  left: 50%;
+  margin-left: -40px;
+  font-size: 20px;
+  position: absolute;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+  line-height: 40px;
+}
+#discover-page header nav .search {
+  float: right;
+  color: #1abc9c;
+  height: 40px;
+  padding: 0 21px;
+  font-size: 20px;
+  line-height: 40px;
+}
+#discover-page header nav .cart {
+  float: right;
+  color: #1abc9c;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+#discover-page div {
+  margin-top: 40px;
+}
+#discover-page div section {
+  border-top: 1px solid black;
+  margin-bottom: 2%;
+}
+#discover-page div section img {
+  width: 100%;
+}
+#discover-page div section div {
+  margin: 0;
+  position: relative;
+}
+#discover-page div section div div {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-left: 2%;
+  font-size: 16px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+}
+#discover-page div section div .type {
+  font-size: 12px;
+}
+#discover-page div section div .distance {
+  top: 20%;
+  position: absolute;
+  right: 0;
+  color: red;
+  font-size: 12px;
+  margin-right: 2%;
+}
+#restaurant-page {
+  width: auto;
+}
+#restaurant-page header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+#restaurant-page header nav {
+  border-bottom: 1px solid #f7f7f7;
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 40px;
+}
+#restaurant-page header nav .back {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  height: 40px;
+  color: #1abc9c;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+}
+#restaurant-page header nav .zipcode {
+  padding-top: 5px;
+  text-align: center;
+  display: inline-block;
+  left: 50%;
+  height: 100%;
+  margin-left: -35px;
+  font-size: 12px;
+  position: absolute;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+}
+#restaurant-page header nav .zipcode p {
+  margin: 0;
+}
+#restaurant-page header nav .cart {
+  position: absolute;
+  right: 20px;
+  color: #1abc9c;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+#restaurant-page .restaurant-intro {
+  border-bottom: 1px solid #c8c8c8;
+}
+#restaurant-page .restaurant-intro div p {
+  text-align: center;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+}
+#restaurant-page .restaurant-intro div .restaurant-name {
+  font-size: 24px;
+  font-family: 'HelveticaNeue', Helvetica, Arial, Sans-Serif;
+  margin-top: 5px;
+}
+#restaurant-page .information {
+  margin-top: 5px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+}
+#restaurant-page .information p {
+  padding-left: 2%;
+  padding-right: 2%;
+  border-bottom: 1px solid #f7f7f7;
+}
+#restaurant-page .information p:first-child {
+  font-family: 'HelveticaNeue', Helvetica, Arial, Sans-Serif;
+  font-size: 20px;
+}
+#restaurant-page .comments {
+  margin-top: 5px;
+  padding-bottom: 60px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+}
+#restaurant-page .comments span {
+  float: right;
+  margin-right: 5%;
+  font-size: 20px;
+}
+#restaurant-page .comments p {
+  padding-left: 2%;
+  padding-right: 2%;
+  border-bottom: 1px solid #f7f7f7;
+}
+#restaurant-page .comments p:nth-child(2) {
+  font-family: 'HelveticaNeue', Helvetica, Arial, Sans-Serif;
+  font-size: 20px;
+}
+#restaurant-page .comments a {
+  color: #1abc9c;
+}
+#restaurant-page .comments a:last-child {
+  border: 1px solid #c8c8c8;
+  border-radius: 4px;
+  position: absolute;
+  right: 2%;
+}
+#restaurant-page footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#restaurant-page footer nav {
+  border-top: 1px solid #f7f7f7;
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 30px;
+}
+#restaurant-page footer nav a {
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  color: #1abc9c;
 }

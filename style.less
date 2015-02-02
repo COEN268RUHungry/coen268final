@@ -15,7 +15,8 @@ html, body{
     
     nav button{
         float: left;
-        margin-left: -2%;
+        margin-left: 0;
+        display: block;
     }
     
     &>div {
@@ -42,6 +43,220 @@ html, body{
         }
         #find-restaurant {
             margin-top: 20%;
+        }
+    }
+}
+
+#discover-page {
+    header {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        nav {
+            border-bottom: 1px solid rgb(247,247,247);
+            background-color: rgb(232,232,232);
+            width: 100%;
+            height: 40px;
+            .menu {
+                display: inline-block;
+                float: left;
+                margin-left: 20px;
+                height: 40px;
+                color: #1abc9c;
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 40px;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+                height: 40px;
+                width: 80px;
+                text-align: center;
+                display: inline-block;
+                left: 50%;
+                margin-left: -40px;
+                font-size: 20px;
+                position: absolute;
+                font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+                line-height: 40px;
+            }
+            .search {
+                float: right;
+                color: #1abc9c;
+                height: 40px;
+                padding: 0 21px;
+                font-size: 20px;
+                line-height: 40px;
+            }  
+            .cart {
+                float: right;
+                color: #1abc9c;
+                font-size: 20px;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+    div {
+        margin-top: 40px;
+        section {
+            border-top: 1px solid black;
+            margin-bottom: 2%;
+            img {
+                width: 100%;
+            }
+            div {
+                margin: 0;
+                position: relative;
+                div {
+                    display: block;
+                    padding: 0;
+                    margin: 0;
+                    margin-left: 2%;
+                    font-size: 16px;
+                    font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+                }
+                .type {
+                    
+                    font-size: 12px;
+                }
+                .distance {
+                    top: 20%;
+                    position: absolute;
+                    right: 0;
+                    color: red;
+                    font-size: 12px;
+                    margin-right: 2%;
+                }
+            }
+        }
+    }
+}
+
+#restaurant-page {
+    //padding-bottom: 30px;
+    width: auto;
+    header {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        nav {
+            border-bottom: 1px solid rgb(247,247,247);
+            background-color: rgb(232,232,232);
+            width: 100%;
+            height: 40px;
+            .back {
+                display: inline-block;
+                position: absolute;
+                left: 20px;
+                height: 40px;
+                color: #1abc9c;
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 40px;
+            }
+            .zipcode {
+                padding-top: 5px;
+                text-align: center;
+                display: inline-block;
+                left: 50%;
+                height: 100%;
+                margin-left: -35px;
+                font-size: 12px;
+                position: absolute;
+                font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+                p {
+                    margin: 0;
+                }
+            }
+            .cart {
+                position: absolute;
+                right: 20px;
+                color: #1abc9c;
+                font-size: 20px;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+    
+    .restaurant-intro {
+        border-bottom: 1px solid rgb(200,200,200);
+        div {
+            p {
+                text-align: center;
+                font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+            }
+            .restaurant-name {
+                font-size: 24px;
+                font-family: 'HelveticaNeue', Helvetica, Arial, Sans-Serif;
+                margin-top: 5px;
+            }
+        }
+    }
+    
+    .information {
+        margin-top: 5px;
+        font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+        p {
+            padding-left: 2%;
+            padding-right: 2%;
+            border-bottom: 1px solid rgb(247,247,247);
+        }
+        p:first-child {
+            font-family: 'HelveticaNeue', Helvetica, Arial, Sans-Serif;
+            font-size: 20px;
+        }
+    }
+    .comments {
+        margin-top: 5px;
+        padding-bottom: 60px;
+        font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+        span {
+            float: right;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        p {
+            padding-left: 2%;
+            padding-right: 2%;
+            border-bottom: 1px solid rgb(247,247,247);
+        }
+        p:nth-child(2) {
+            font-family: 'HelveticaNeue', Helvetica, Arial, Sans-Serif;
+            font-size: 20px;
+        }
+        a {
+            color: #1abc9c;
+        }
+        a:last-child {
+            border: 1px solid rgb(200,200,200);
+            border-radius: 4px;
+            position: absolute;
+            right: 2%;
+        }
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        nav {
+            border-top: 1px solid rgb(247,247,247);
+            background-color: rgb(232,232,232);
+            width: 100%;
+            height: 30px;
+            
+            a {
+                display: block;
+                line-height: 30px;
+                text-align: center;
+                color: #1abc9c;
+                
+            }
         }
     }
 }
