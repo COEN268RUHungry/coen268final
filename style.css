@@ -194,6 +194,9 @@ body {
   width: 100%;
   font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
 }
+#restaurant-page .information img {
+  width: 100%;
+}
 #restaurant-page .information p {
   padding-left: 2%;
   padding-right: 2%;
