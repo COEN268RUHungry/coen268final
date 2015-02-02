@@ -2,36 +2,48 @@
 <html>
 <head>
 	<title>
-      Full Menu
+      Shopping Cart
     </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+     <!-- Loading Bootstrap -->
+    <link href="UI/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="UI/dist/css/flat-ui.min.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no">
 </head>
     <body>
-        <div>
-    	<header><span>←</span><span>SHOPPING CART</span></header>
-    	 <div>
+        <div id="cart-page">
+    	<header><div><</div><div>SHOPPING CART</div></header>
+    	 <div class="amount-summary">
     	 	<ul>
     	 		<li>
-    	 			<div><p>AAA Restaurant</p> | <p>Total Amount: $6.75</p></div>
-    	 			<div>
-    	 				<p>1</p>
-    	 				<p>Three main course & soup</p>
-    	 				<p>$6.25 /each</p>
-    	 				<button>Edit</button>
+    	 			<div class="each-total">
+                        <p><span>QQ Noodle Restaurant</span> | <span>Total Amount: $6.75</span></p></div>
+    	 			<div class="food-detail">
+    	 				<div>1</div>
+                        <div>
+    	 				<p class="food-name">Three main course & soup</p>
+    	 				<p class="food-price">$6.25 /each</p>
+                    </div>
+                    <div>
+    	 				<button class="btn btn-primary btn-xs">Edit</button>
+                    </div>
     	 			</div>
-    	 			<div>
-    	 				<p>√</p>
+    	 			<div class="delivery-text">
+    	 				<div>√</div>
+                        <div>
     	 				<p>Delivery</p>
     	 				<p>Will arrive in 90 minutes</p>
+                    </div>
     	 			</div>
     	 		</li>
     	 	</ul>
     	 </div>
-        <footer>
-            <p>GO TO CART</p>
-        </footer>
+        
         </div>
+        <footer>
+            <button class="btn btn-primary btn-lg btn-block">Check Out Now | <span>$6.25</span></button>
+        </footer>
     </body>
 </html>

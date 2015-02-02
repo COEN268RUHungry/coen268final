@@ -5,49 +5,83 @@
       Full Menu
     </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <!-- Loading Bootstrap -->
+    <link href="UI/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="UI/dist/css/flat-ui.min.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no">
 </head>
     <body>
-        <div>
-    	<header><span>&darr;</span><span>FULL MENU</span></header>
-        <div class="menu-category">
+        <div id="fullmenu-page">
+
+    	<header>
             <ul>
-                <li>
-                    <img src="rice.jpg" alt="rice">
-                    <p class="name">White Rice</p>
-                    <p class="price">$1.50</p>
-                    <button>+ ADD</button>
+                <li class="hide-down">v</li>
+                <li class="text-center">FULL MENU</li>
+            </ul>
+        </header>
+        <div class="menu-category scroll-part-x">
+            <ul>
+                <li>APPETIZERS</li>
+                <li>SOUP</li>
+                <li>MAIN COURSE</li>
+                <li>BEVERAGE</li>
+            </ul>
+        </div>
+        <div class="menu-detail">
+            <ul>
+                <li class="food-lists">
+                    <ul>
+                    <li><img class="img-rounded" src="image/fullmenu/rice.jpg" alt="rice"></li>
+                    <li><p class="foodname">White Rice</p></li>
+                    <li>
+                        <p class="price">$1.50</p>
+                        <button class="btn btn-primary btn-sm">+ ADD</button>
+                    </li>
+                </ul>
                 </li>
-                <li>
-                    <img src="rice.jpg" alt="rice">
-                    <p class="name">Brown Rice</p>
-                    <p class="price">$1.50</p>
-                    <button>+ ADD</button>
+                <li class="food-lists">
+                    <ul>
+                    <li><img class="img-rounded" src="image/fullmenu/brownrice.jpg" alt="rice"></li>
+                    <li><p class="foodname">Brown Rice</p></li>
+                    <li>
+                        <p class="price">$1.50</p>
+                        <button class="btn btn-primary btn-sm">+ ADD</button>
+                    </li>
+                </ul>
                 </li>
-                <li>
-                    <img src="rice.jpg" alt="rice">
-                    <p class="name">Sliced Roast Beef&Tendon</p>
-                    <p class="price">$7.50</p>
-                    <button>+ ADD</button>
+                <li class="food-lists">
+                    <ul>
+                    <li><img class="img-rounded" src="image/fullmenu/fuqifeipian.jpg" alt="rice"></li>
+                    <li><p class="foodname">Sliced Roast Beef&Tendon</p></li>
+                    <li>
+                        <p class="price">$7.50</p>
+                        <button class="btn btn-primary btn-sm">+ ADD</button>
+                    </li>
+                    </ul>
                 </li>
-                <li>
-                    <img src="rice.jpg" alt="rice">
-                    <p class="name">Steamed Pork W.Fresh Garlic</p>
-                    <p class="price">$6.75</p>
-                    <button>+ ADD</button>
+                <li class="food-lists">
+                    <ul>
+                    <li><img class="img-rounded" src="image/fullmenu/liangfen.jpg" alt="rice"></li>
+                    <li><p class="foodname">Green Bean Jello W.Chili</p></li>
+                    <li>
+                        <p class="price">$6.75</p>
+                        <button class="btn btn-primary btn-sm">+ ADD</button>
+                    </li>
+                    </ul>
                 </li>
-                <li>
-                    <img src="rice.jpg" alt="rice">
-                    <p class="name">Green Bean Jello W.Chili</p>
-                    <p class="price">$6.75</p>
-                    <button>+ ADD</button>
+                <li class="food-lists">
+                    <ul>
+                    <li><img class="img-rounded" src="image/fullmenu/chaoshou.jpeg" alt="rice"></li>
+                    <li><p class="foodname">Wonton W.Spicy Chili Sauce</p></li>
+                    <li>
+                        <p class="price">$5.75</p>
+                        <button class="btn btn-primary btn-sm">+ ADD</button>
+                    </li>
+                    </ul>
                 </li>
-                <li>
-                    <img src="rice.jpg" alt="rice">
-                    <p class="name">Wonton W.Spicy Chili Sauce</p>
-                    <p class="price">$5.75</p>
-                    <button>+ ADD</button>
+                <li class="blank-area">
                 </li>
             </ul>
         </div>
