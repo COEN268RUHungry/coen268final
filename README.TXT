@@ -8,6 +8,7 @@ Things have done:
 (3)we spend about 20 hours to write the code and debugging, we write 6 main page fo the app,include css details.
 The 6 pages include the Login page, Restaurant List page, Specific Restaurant information page, the Menu page, Shopping Cart page, and payment page, all these pages form a basic app.
 (4)we spend 1h hour to design the database scheme, and write most of the tables, but did not launch it to server side.
+(5)At the end we spend 1~2 hour to adjust the display in iphone 6 simulator, so it looks better in mobile devices.
 
 Things needs to do:
 1. More templates need to be designed, include the Admin page, Member account page.
